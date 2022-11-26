@@ -1,0 +1,52 @@
+.main {
+    text-align: center;
+}
+
+.sub {
+    border: 5px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.sub > :first-child {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 5px;
+    background-color: white;
+    border-radius: 10%;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mybtn:hover {
+    background-color: rgb(255, 217, 217);
+}
+
+#searchbar {
+    padding: 5px;
+    background-color: rgb(255, 254, 222);
+}
+
+#app {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 20px;
+}
+
+#clear {
+    margin-top: 10px;
+}
+
+.tooltip {
+    margin-top: 15px;
+    background-color: antiquewhite;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid chocolate;
+}
